@@ -90,3 +90,21 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X.values, y.values, test_size=0.2, random_state=42)
 `````
 # Data Visualization and Business Insight
+![Perbandingan Jumlah](https://github.com/irfan2622/Home-Credit-Scorecard-Model/blob/4a30279fe6d4bc6154cff8f37f1a8745824a6045/Perbandingan%20Jumlah%20.png)
+
+Mayoritas klien (281.430) berhasil membayar pinjaman tepat waktu, sedangkan 24.752 klien mengalami kesulitan dalam pembayaran.
+![Usia Gagal Membayar](https://github.com/irfan2622/Home-Credit-Scorecard-Model/blob/4a30279fe6d4bc6154cff8f37f1a8745824a6045/Usia%20Gagal%20Membayar.png)
+
+Klien yang berusia muda memiliki risiko yang lebih tinggi untuk gagal membayar pinjaman. Tingkat kegagalan pembayaran melebihi 10% untuk kelompok usia terendah, sementara tingkat kegagalan tersebut di bawah 5% untuk kelompok usia tertua.
+# Machine Learning Implementation and Evaluation
+Ada 2 Model Machine Learning menggunakan hyperparameter tuning
+1. XGBoost Classifier
+2. Decision Tree Classifier
+   
+![Jepretan Layar 2023-12-03 pukul 19.57.06](https://github.com/irfan2622/Home-Credit-Scorecard-Model/blob/4a30279fe6d4bc6154cff8f37f1a8745824a6045/Jepretan%20Layar%202023-12-03%20pukul%2019.57.06.png )
+
+Setelah menganalisis data Home Credit, ditemukan bahwa model terbaik yang digunakan adalah XGBoost Classifier. Model ini memiliki tingkat akurasi sebesar 0.916603
+# Business Recommendation
+
+1. Home Credit Indonesia perlu memberikan perhatian istimewa kepada pelanggan yang memenuhi kriteria berikut: memilih pinjaman tunai, memiliki pekerjaan, sudah menikah, dan memiliki rumah atau apartemen. Kelompok pelanggan ini memiliki tingkat kemampuan pembayaran yang tinggi. Agar mereka terus menjadi pelanggan kita, kita harus memberikan beberapa benefit kepada mereka seperti mengurangi jumlah angsuran yang harus dibayarkan, meningkatkan batas pinjaman yang dapat diakses oleh pelanggan tersebut dan memberikan fleksibilitas pada jangka waktu pembayaran
+2. Berdasarkan visualisasi data, didapat bahwa klien berusia muda memiliki risiko yang tinggi untuk gagal membayar pinjaman .Untuk mengatasi masalah ini, Home Credit Indonesia setidaknya memberikan edukasi keuangan terhadap klien muda , meningkatkan pengawasan dan juga menyesuaikan produkpinjaman.
