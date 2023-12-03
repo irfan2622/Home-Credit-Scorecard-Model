@@ -93,6 +93,7 @@ X_train, X_test, y_train, y_test = train_test_split(X.values, y.values, test_siz
 ![Perbandingan Jumlah](https://github.com/irfan2622/Home-Credit-Scorecard-Model/blob/4a30279fe6d4bc6154cff8f37f1a8745824a6045/Perbandingan%20Jumlah%20.png)
 
 Mayoritas klien (281.430) berhasil membayar pinjaman tepat waktu, sedangkan 24.752 klien mengalami kesulitan dalam pembayaran.
+
 ![Usia Gagal Membayar](https://github.com/irfan2622/Home-Credit-Scorecard-Model/blob/4a30279fe6d4bc6154cff8f37f1a8745824a6045/Usia%20Gagal%20Membayar.png)
 
 Klien yang berusia muda memiliki risiko yang lebih tinggi untuk gagal membayar pinjaman. Tingkat kegagalan pembayaran melebihi 10% untuk kelompok usia terendah, sementara tingkat kegagalan tersebut di bawah 5% untuk kelompok usia tertua.
